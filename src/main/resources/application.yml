@@ -1,0 +1,9 @@
+proxy:
+  target:
+    scheme: http
+    host: 127.0.0.1
+    port: 40001
+  header:
+    removeList: "x-frame-options"
+server:
+  port: 40000
